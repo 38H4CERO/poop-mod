@@ -1,8 +1,8 @@
-package net.redcherrytree.testmod;
+package net.redcherrytree.poopmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TestModClient implements ClientModInitializer {
+public class PoopModClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {

@@ -1,12 +1,12 @@
-package net.redcherrytree.testmod;
+package net.redcherrytree.poopmod;
 
 import net.fabricmc.api.ModInitializer;
-import net.redcherrytree.testmod.item.ModItems;
+import net.redcherrytree.poopmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TestMod implements ModInitializer {
-	public static final String MOD_ID = "testmod";
+public class PoopMod implements ModInitializer {
+	public static final String MOD_ID = "poopmod";
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.

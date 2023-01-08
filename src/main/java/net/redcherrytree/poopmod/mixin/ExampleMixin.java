@@ -1,6 +1,6 @@
-package net.redcherrytree.testmod.mixin;
+package net.redcherrytree.poopmod.mixin;
 
-import net.redcherrytree.testmod.TestMod;
+import net.redcherrytree.poopmod.PoopMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		TestMod.LOGGER.info("This line is printed by an example mod mixin!");
+		PoopMod.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

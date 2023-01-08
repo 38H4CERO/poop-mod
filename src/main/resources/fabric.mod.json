@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "testmod",
+  "id": "poopmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Poop Mod",
+  "description": "This is an mod about poop, enjoy!, remake of https://github.com/tominator1pl/poop-mod",
   "authors": [
     "Red Cherry Tree"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/38H4CERO/poop-mod"
   },
 
   "license": "MIT License",
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.redcherrytree.testmod.TestMod"
+      "net.redcherrytree.poopmod.PoopMod"
     ],
     "client": [
-      "net.redcherrytree.testmod.TestModClient"
+      "net.redcherrytree.poopmod.PoopModClient"
     ]
   },
   "mixins": [
-    "testmod.mixins.json"
+    "poopmod.mixins.json"
   ],
 
   "depends": {
